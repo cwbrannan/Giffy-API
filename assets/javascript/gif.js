@@ -5,7 +5,7 @@ function renderButtons() {
     // Deleting the movie buttons prior to adding new movie buttons
     // (this is necessary otherwise we will have repeat buttons)
     $("#buttons-view").empty();
-    /
+    
 
     // Looping through the array of movies
     for (var i = 0; i < heros.length; i++) {
